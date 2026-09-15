@@ -1,0 +1,13 @@
+[theme]
+base = "light"
+primaryColor = "#4f46e5"
+
+[browser]
+gatherUsageStats = false
+
+[server]
+# ローカル開発用。誰かと共有・デプロイするときは false にするかこの行を削除する
+runOnSave = true
+# ローカル単独利用前提。全 NIC ではなく loopback のみで待ち受ける
+# （LAN 共有時はこの行を外し、前段でリバースプロキシ+認証を挟むこと）
+address = "127.0.0.1"

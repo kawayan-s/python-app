@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+*.pem
+*.key
+*-service-account*.json
+credentials.json
+.DS_Store
+.claude/
+.agents/
+skills-lock.json

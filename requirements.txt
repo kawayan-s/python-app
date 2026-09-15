@@ -1,0 +1,5 @@
+# 動作確認済みバージョンに固定（供給網リスク・再現性のため）。
+# 更新するときは: pip install -U streamlit google-genai → streamlit run app.py で
+# 動作確認 → ここの数値を更新。ときどき `pip install pip-audit && pip-audit` も実行。
+streamlit==1.63.0
+google-genai==2.22.0
